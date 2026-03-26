@@ -9,6 +9,9 @@
   --accent: #ffa600;
 }
 
+
+# Calculadora by Gabriel Gemelli Bonadiman
+
 body {
   background: var(--body-bg);
   flex-direction: column;
