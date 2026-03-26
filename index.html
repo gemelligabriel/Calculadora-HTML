@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>CALCULADORA</h1>
+  <h2>by Gabriel Gemelli Bonadiman</h2>
+
+  <div class="calculator">
+
+    <div class="display" id="display">0</div>
+
+    <div class="buttons">
+      <button class="function" onclick="deleteLast()">⌫</button>
+      <button class="function" onclick="clearDisplay()">C</button>
+      <button class="function" onclick="addToDisplay('%)">%</button>
+      <button class="equals" onclick="addToDisplay('/')">÷</button>
+
+      <button class="number" onclick="addToDisplay('7')">7</button>
+      <button class="number" onclick="addToDisplay('8')">8</button>
+      <button class="number"onclick="addToDisplay('9')">9</button>
+      <button class="equals" onclick="addToDisplay('*')">×</button>
+
+      <button onclick="addToDisplay('4')">4</button>
+      <button onclick="addToDisplay('5')">5</button>
+      <button onclick="addToDisplay('6')">6</button>
+      <button class="equals" onclick="addToDisplay('-')">−</button>
+
+      <button onclick="addToDisplay('1')">1</button>
+      <button onclick="addToDisplay('2')">2</button>
+      <button onclick="addToDisplay('3')">3</button>
+      <button class="equals" onclick="addToDisplay('+')">+</button>
+
+      <button onclick="addToDisplay('0')" class="zero">0</button>
+      <button onclick="addToDisplay('.')">,</button>
+      <button class="equals" onclick="calculate()">=</button>
+    </div>
+
+  </div>
+
+</body>
+<script src="app.js"></script>
+</html>
